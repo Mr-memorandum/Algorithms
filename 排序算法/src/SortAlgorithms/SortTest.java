@@ -21,5 +21,7 @@ public class SortTest {
         new ShellSort(a);
         a = arrayReset();
         new SimpleSelectionSort(a);
+	a = arrayReset();
+	new QuickSort(a);
     }
 }
